@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+}
+@font-face{
+    font-family: 'Conv_BebasNeue Regular';
+    src: url('../fonts/BebasNeue Regular.woff');
+    src: local('вє'), url('../fonts/BebasNeue Regular.woff') format('woff'), url('../fonts/BebasNeue Regular.ttf') format('truetype'), url('../fonts/BebasNeue Regular.woff') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+	font-family: 'Conv_BreeSerif-Regular';
+	src: url('/fonts/BreeSerif-Regular.eot');
+	src: local('вє'), url('/fonts/BreeSerif-Regular.woff') format('woff'), url('../fonts/BreeSerif-Regular.ttf') format('truetype'), url('../fonts/BreeSerif-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.area{
+    background: url("../img/bg.jpg");
+    height: 491px;
+}
+.fotorama__nav__frame.fotorama__active .fotorama__dot {
+    width: 0;
+    height: 0;
+}
+.fotorama__dot {
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 12px;
+    left: 6px;
+    border-radius: 10px;
+    background-color: #adadad;
+}
+.fotorama__nav--dots .fotorama__nav__frame {
+    width: 18px;
+    height: 30px;
+}
+.area-block{
+    width: 635px;
+    text-align: center;
+    padding: 95px;
+    margin: 0 auto;
+}
+.area-block h1{
+    font-family: 'Conv_BebasNeue Regular';
+    text-transform:uppercase;
+    color: #cccece;
+    font-size: 60px;
+    margin: 0;
+}
+.area-block p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #cccece;
+    font-size: 14px;
+    padding: 6px;
+}
+.container-btn{
+    width: 250px;
+    margin: 0 auto;
+}
+.knopka{
+    background: #f98561;
+    border: 0;
+    border-radius: 5px;
+    width: 241px;
+    height: 50px;
+    font-size: 25px;
+    color: #ffebca;
+    text-transform:uppercase;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+}
+.knopka-1{
+    font-family: 'Conv_BebasNeue Regular';
+    background: #2190c1;
+    border: 0;
+    border-radius: 4px;
+    width: 146px;
+    height: 35px;
+    font-size: 22px;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    top: 220px;
+}
+.area-2{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.area-2-detalies{
+    margin: 0 auto;
+    width: 928px;
+}
+.area-block-2{
+    margin: 0 auto;
+}
+.block-services{
+    display: inline-block;
+    text-align: center;
+    padding: 50px 35px;
+}
+.t-1 p{
+    font-family: 'Conv_BreeSerif-Regular';
+    font-size: 17px;
+    color: #515862;
+    width: 157px;
+    margin: 0 auto;
+}
+.t-2 p{
+    font-size: 11px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #515862;
+    width: 115px;
+    text-align: center;
+    margin: 0 auto;
+}
+.colortext{
+    color: #3e9dd1;
+}
+a{
+    text-decoration: none;
+}
+.all-block-services{
+    width: 935px;
+}
+
+.block-services-1{
+    background: url("../img/laptop.png") no-repeat;
+    height: 118px;
+    width: 118px;
+    margin: 0 auto;
+}
+.block-services-2{
+    background: url("../img/search.png") no-repeat;
+    height: 118px;
+    width: 118px;
+    margin: 0 auto;
+}
+.block-services-3{
+    background: url("../img/online-shop.png") no-repeat;
+    height: 118px;
+    width: 118px;
+    margin: 0 auto;
+}
+.block-services-4{
+    background: url("../img/social.png") no-repeat;
+    height: 118px;
+    width: 118px;
+    margin: 0 auto;
+}
+.area-3{
+    background-color: #2e3e4f;
+    height: 518px;
+}
+.area-block-3{
+    width: 920px;
+    margin: 0 auto;
+    padding-bottom: 54px;
+}
+.area-3-block-1{
+    padding: 41px 0 90px;
+}
+.area-3-block-1 p{
+    font-family: 'Conv_BreeSerif-Regular';
+    font-size: 30px;
+    color: #f98561;
+    margin: 0 auto;
+    float: left;
+}
+.knopka-2{
+    background: #2190c1;
+    border: 0;
+    border-radius: 4px;
+    width: 90px;
+    height: 32px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    cursor: pointer;
+    float: right;
+}
+.camera-block-camera {
+    vertical-align: top;
+}
+.camera-block{
+    height: 220px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.t-3 p{
+    font-family: 'Conv_BreeSerif-Regular';
+    font-size: 17px;
+    color: #f98561;
+}
+.t-3:last-child{
+    padding-right: inherit;
+}
+.t-4 p{
+    font-family: 'Conv_BreeSerif-Regular';
+    font-size: 11px;
+    color: #9ea1a3;
+    width: 276px;
+}
+.area-4{
+    background-color: #f4f4f4;
+}
+.area-block-4{
+    width: 920px;
+    margin: 0 auto;
+}
+.area-block-offer{
+    padding: 30px 0 0;
+}
+.area-block-offer h2{
+    font-family: 'Conv_BebasNeue Regular';
+    color: #2190c1;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.area-block-offer p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 11px;
+    color: #515862;
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.block-detalis{
+    width: 918px;
+    margin: 0 auto;
+}
+.block-detalis-1{
+    width: 157px;
+    display: inline-block;
+    padding: 30px 30px 20px;
+}
+.t-5 p{
+    font-family: 'Conv_BreeSerif-Regular';
+    font-size: 17px;
+    color: #2b99cc;
+}
+.t-6 p{
+    font-size: 11px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #515862;
+}
+.knopka-3{
+    background: #2190c1;
+    border: 5px;
+    border-radius: 4px;
+    width: 55px;
+    height: 24px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    float: right;
+}
+hr{
+    color: #d9d9d9;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.test h3{
+    font-family: 'Conv_BebasNeue Regular';
+    color: #2190c1;
+    font-size: 34px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0 0;
+}
+.test p{
+    font-family: 'Conv_BreeSerif-Regular';
+    font-size: 25px;
+    color: #515862;
+    text-align: center;
+    width: 775px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+}
+.test-prof p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #f98561;
+    font-size: 14px;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+.test-profiles{
+    background: url("../img/vector-all.png") no-repeat;
+    background-position: center;
+    height: 89px;
+}
+
